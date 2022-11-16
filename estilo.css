@@ -1,0 +1,210 @@
+@font-face {
+        font-family: 'Abel';
+        src: url('Abel.ttf') format('truetype');
+        font-style: normal;
+        font-weight: normal;
+    }
+
+@font-face {
+        font-family: 'Antonio';
+        src: url('Antonio.ttf') format('truetype');
+        font-style: normal;
+        font-weight: normal;
+    }
+
+@font-face {
+        font-family: 'Montserrat';
+        src: url('Montserrat.ttf') format('truetype');
+        font-style: normal;
+        font-weight: normal;
+    }
+
+body {
+        font-family: Abel;
+        width: 75vw;
+        font-size: 18px;
+    }
+
+h1 {
+    color: #3C70AE;
+    text-transform: uppercase;
+    font-weight: lighter;
+    line-height: 2vh;
+}
+
+
+.columna1{
+    position: absolute;
+    background-color: #F5F2F2; 
+    width: 20vw;
+    padding: 6vh 2vw;
+}
+
+.columna2{
+    position: absolute;
+    left: 25vw;
+    background-color: rgb(254, 254, 254);
+    width: 40vw;
+    padding: 2vh 2.5vw;
+}
+
+.foto{
+    text-align: center;
+}
+
+.foto img{
+    height: 35vh;
+    border-radius: 180px;
+    border: #3C70AE solid 2px;
+    box-shadow: 5px 5px #e5e8eb;
+
+}
+
+.puesto h2{
+    position: relative;
+    text-align:center;
+    color: #3C70AE;
+    font-weight: lighter;
+    line-height: 15px;
+    top:10px;
+    font-family: 'Montserrat';
+    font-size: 20px;
+}
+
+.perfil {
+    text-align: center;
+}
+
+.perfil h2{
+    position: relative;
+    margin-top: 40px;
+    color:#3C70AE;
+    text-transform: uppercase;
+    font-weight: lighter;
+}
+
+.conocimientos {
+    text-align: center;
+}
+
+.conocimientos h2{
+    position: relative;
+    margin-top: 40px;
+    color:#3C70AE;
+    text-transform: uppercase;
+    font-weight: lighter;
+}
+
+.cualidades {
+    text-align: center;
+}
+
+.cualidades h2{
+    position: relative;
+    margin-top: 40px;
+    color:#3C70AE;
+    text-transform: uppercase;
+    font-weight: lighter;
+}
+
+.informacion h2{
+    position: relative;
+    margin-top: 40px;
+    color:#3C70AE;
+    text-transform: uppercase;
+    font-weight: lighter;
+    text-align: center;
+}
+
+.informacion img{
+    width: 30px;
+    position: absolute;
+    left: 50px;  
+}
+
+.informacion p{
+    position: relative;
+    left: 60px;
+    line-height: 15px;
+    top:9px;
+}
+
+.informacion a{
+    position: relative;
+    left: 60px;
+    line-height: 15px;
+    top:9px;
+}
+
+#portfolio{
+    position: relative;
+    top: 14px;
+}
+
+#portfolio img{
+    left: 24px;
+}
+
+#experiencia{
+    background-color: #e5e8eb;
+    color: #3C70AE;
+    text-align: right;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-transform: uppercase;
+    position: relative;
+    margin-top: -0.2vh;
+}
+
+#formacion {
+    background-color: #e5e8eb;
+    color: #3C70AE;
+    text-align: right;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-transform: uppercase;
+}
+
+.programacion h3{
+    color:#3C70AE;
+    font-family: Antonio;
+    text-transform: uppercase;
+    font-weight: lighter;
+}
+
+.consultora h3{
+    color:#3C70AE;
+    font-family: Antonio;
+    text-transform: uppercase;
+    font-weight: lighter;
+}
+
+.programacion h4{
+    color:#3C70AE;
+    font-weight: lighter;
+    position: relative;
+    margin-top: -15px;
+    margin-bottom: -10px;
+}
+
+.consultora h4{
+    color:#3C70AE;
+    font-weight: lighter;
+    position: relative;
+    margin-top: -15px;
+    margin-bottom: -10px;
+}
+
+.titulos h3{
+    color:#3C70AE;
+    font-family: Antonio;
+    text-transform: uppercase;
+    font-weight: lighter;
+    margin-bottom: -10px;
+}
+
+.programacion, .consultora, .administrativa {
+    color: black;
+}
